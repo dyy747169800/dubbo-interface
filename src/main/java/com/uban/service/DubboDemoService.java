@@ -1,5 +1,6 @@
 package com.uban.service;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 /**
@@ -10,4 +11,6 @@ public interface DubboDemoService {
     public JSONObject demo(String val);
 
     public JSONObject getUsers();
+
+    public JSONArray solrTest();
 }
